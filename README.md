@@ -1,0 +1,3 @@
+Made this like 13 eons ago <br>
+thought I might want to publish it incase someone wants to read through my aweful code <br>
+or even... use my evil garbage code...
