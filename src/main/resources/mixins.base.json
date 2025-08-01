@@ -1,0 +1,25 @@
+{
+  "required": true,
+  "minVersion": "0.7",
+  "package": "seraph.base.mixins",
+  "refmap": "mixins.base.refmap.json",
+  "compatibilityLevel": "JAVA_8",
+  "client": [
+    "Accessors.AccessorEntityPlayerSP",
+    "Accessors.AccessorMinecraft",
+    "Event.MixinEntityPlayerSP",
+    "Event.MixinEntityRenderer",
+    "Event.MixinGuiScreen",
+    "Event.MixinItemRenderer",
+    "Event.MixinModelPlayer",
+    "Event.MixinModid",
+    "Event.MixinNetworkManager",
+    "Event.MixinRenderManager"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "Event.MixinEntityLivingBase"
+  ]
+}
